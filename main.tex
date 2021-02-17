@@ -1,0 +1,604 @@
+\documentclass{article}
+\usepackage{scimisc-cv}
+%\usepackage{hyperref}
+\usepackage{bibentry}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+
+\title{Enis Afgan Curriculum Vitae}
+\author{Enis Afgan}
+\date{February 2021}
+
+
+%% These are custom commands defined in scimisc-cv.sty
+\cvname{Enis Afgan}
+\cvpersonalinfo{
+359 Homeland Swy, Unit 3A, Baltimore, MD 21212\cvinfosep 
+410-369-8563 \cvinfosep
+enis.afgan@gmail.com \cvinfosep
+\textsc{\faLinkedin}, {\faGithub} afgane
+}
+
+\pagestyle{fancy} % Turn on the style
+\fancyhf{} % sets both header and footer to nothing
+\renewcommand{\headrulewidth}{0pt} % do not display horizontal line in header
+\fancyfoot[C]{\thepage} % Set the right side of the footer to be the page number
+
+\begin{document}
+%\tableofcontents
+\nobibliography{ref.bib}
+\bibliographystyle{unsrt}
+
+% \maketitle %% This is LaTeX's default title constructed from \title,\author,\date
+
+\makecvtitle %% This is a custom command constructing the CV title from \cvname, \cvpersonalinfo
+
+%\section{Objective}
+%                    To obtain a position where I can utilize my versatile skill set to personally
+%                    contribute to the success of an organization creating a positive impact in
+%                    society.
+
+%\section{Summary}
+\begin{description}[widest=Research interests]
+    \item[Research Interests] Cloud and Distributed Computing, Software Containers and Orchestration, DevOps, Application Execution Optimization, Software Accessibility, Open Science
+\end{description}
+ 
+\vspace{\parskip}%
+\section{Education}
+
+
+\cvsubsection{Emory University}[Atlanta, GA]
+[Postdoctoral Research Fellow][2009-2011]
+\begin{itemize}
+    \item[] Focus areas of Cloud Computing, Web Application Architecture, Execution of Computational Biology Applications, DevOps
+    \item[] Postdoc Advisor: Dr. James Taylor
+\end{itemize}
+
+\cvsubsection{University of Alabama at Birmingham}[Birmingham, AL]
+[Ph.D. in Computer Science][2004-2009]
+\begin{itemize}
+    \item[] GPA: 4.0 on 4.0 scale
+    \item[] Major Field of Study: Grid Computing
+    \item[] Dissertation: Utility Driven Grid Scheduling Framework
+    \item[] Dissertation Advisor: Dr. Purushotham Bangalore
+    \item[] Committee Members: Dr. Brandon Eames, Dr. Elliot Lefkowitz,
+Dr. Anthony Skjellum, Dr. Alan Sprague
+\end{itemize}
+
+\cvsubsection{University of Alabama at Birmingham}[Birmingham, AL]
+[Bachelor of Science in Computer Science][1999-2003]
+\begin{itemize}
+    \item[] GPA: 3.94 on 4.0 scale (summa cum laude)
+    \item[] Honors Program
+    \item[] Focus areas of Operating Systems and Distributed Computing
+\end{itemize}
+ 
+ 
+\vspace{\parskip}% 
+\section{Professional Experience}
+
+\cvsubsection{GalaxyWorks, LLC}[Baltimore, MD]
+[Chief Executive Officer][2018 to present]
+
+\begin{itemize}
+    \item Strategic planning and execution of plans to enable commercialization of open-source data analysis software for bioinformatics based on Galaxy (https://galaxyproject.org). 
+    \item Pursue funding opportunities, primarily from US federal agencies.
+    \item Contract negotiation with clients and federal agencies.
+    \item Team recruiting, organization, culture building.
+    \item Customer discovery, including via the NSF and NIH I-Corps programs.
+    \item Handle cash-flow, accounting, daily business operations.
+    \item Scaled the business from \$0 to \$350k in annual revenue.
+\end{itemize}
+
+\cvsubsection{Johns Hopkins University, Department of Biology}[Baltimore, MD]
+[Assocaite Research Scientist][2014 to present]
+
+\begin{itemize}
+    \item A member of the Galaxy Project Leadership, helping set project-wide direction and goals for a community of 40-50 world-wide active contributors.
+    \item Pursue funding for Galaxy through NSF and NIH programs.
+    \item Personally responsible for and leading the technical efforts around provisioning of the Galaxy application ecosystem across cloud computing providers (AWS, OpenStack,GCP) in a uniform fashion.
+    \item Devise technical architecture plans and follow through the implementation of those for deploying Galaxy on Kubernetes.
+    \item Coordinate activities, priorities, and team members working on large NIH projects, such as AnVIL, Galaxy for Cancer, Federated Authentication, Jetstream Academic Cloud.
+    \item Recruiting, interviewing, and mentoring team members and interns.
+\end{itemize}
+
+\cvsubsection{University of Melbourne, Victorian Life Sciences Computation Initiative (VLSCI)}[Melbourne, Australia]
+[Research Scientist][2012 to 2014]
+\begin{itemize}
+    \item Technical lead on the Genomics Virtual Laboratory (GVL) project.
+    \item In charge of establishing computationally functional aspects of the GVL, including coordinating utilization of the Australian national Research Cloud built on OpenStack and bioinformatics applications. 
+    \item Devised and delivered numerous training activities teaching cloud computing and programming for the cloud concepts to bioinformaticians and software engineers.
+\end{itemize}
+
+\cvsubsection{Ruđer Bošković Institute (RBI), Center for Computing and Informatics (CIR)}[Zagreb, Croatia]
+[Research Scientist][2011 to 2014]
+\begin{itemize}
+    \item Pursue funding for the lab from the EU and Croatian agencies, including FP7, Horizon 2020, and Croatian EU Structural Funds programs.
+    \item Lead the development of the CloudMan open-source project, as a mechanism to provide easier managament of cloud infrastructure for deploying domain-specific applications. Reponsible for devising, engineering, building, and maintaining the system
+    \item Coordinate between three actively involved and geographically distributed groups to deliver a functional product.
+    \item Help with annual VIS-DC conference and workshop organization as part of the MIPRO conference series.
+    \item Organize and participate in outreach activities for popularizing cloud computing and bioinformatics within RBI and the region via a series of training sessions.
+\end{itemize}
+
+\cvsubsection{University of Alabama at Birmingham, CCL group}[Birmingham, AL]
+[Research Assistant][2004 to 2009]
+\begin{itemize}
+    \item Involved in use, enablement, and advancement of grid related technologies: Globus Toolkit, GridWay, DRMAA, GridSim, Grid services, OGF, OGCE, GridSphere.
+    \item Introduced new concepts into the field of grid application execution and scheduling enabling shorter turnaround times of submitted jobs (up to 50\%) through adoption of principles in Artificial Intelligence, Statistics, and Application Optimizations.
+    \item Experience in grid enablement and execution optimization of domain-specific applications such as BLAST and R.
+    \item Assisted in setup and configuration of campus wide grid (UABgrid) and regional grid (SURAgrid), dealing with software stack installation and access method enablement through portal customization and portlet creation (e.g., OGCE).
+    \item Taught a junior-level class on UNIX principles. Broad experience in Grid Computing and Distributed Systems through a range of teaching and grading assignments. 
+    \item Designed, managed, and guided graduate and undergraduate students in software development: Web portal development using web service technologies with a back-end supporting grid application registration and information retrieval as well as creation of automated grid job submission interfaces.
+\end{itemize}
+
+%
+%   AWARDED GRANTS
+%
+
+\vspace{\parskip}
+\section{Awarded Grants}
+
+\vspace{\parskip}
+\confsection{Making the Galaxy Computational Workbench Robust for Cloud Computing}
+\vspace{\parskip}
+\begin{description}[widest=Project Period]
+    \item[Project \#] CZI 136784 (PI: Goecks)
+    \item[Project Period] 01/2021-12/2021
+    \item[Role] Co-PI
+\end{description}
+
+\vspace{\parskip}
+\confsection{An Integrative and Collaborative Genomic Data Analysis Service with Galaxy}
+\vspace{\parskip}
+\begin{description}[widest=Project Period]
+    \item[Project \#] NIH R41 HG010982
+    \item[Project Period] 09/2019-08/2021
+    \item[Role] PI
+\end{description}
+
+\vspace{\parskip}
+\confsection{Implementing the NHGRI Genomic Data Science Analysis, Visualization, and Informatics Lab-space (AnVIL)}
+\vspace{\parskip}
+\begin{description}[widest=Project Period]
+    \item[Project \#] NIH U24 HG010263 (PI: Schatz)
+    \item[Project Period] 09/2018 – 06/2023
+    \item[Role] Co-I
+\end{description}
+
+\vspace{\parskip}
+\confsection{Securing Science Gateway Cyberinfrastructure with Custos}
+\vspace{\parskip}
+\begin{description}[widest=Project Period]
+    \item[Project \#] NSF 1840003 (PI: Pierce)
+    \item[Project Period] 08/2018-07/2021
+    \item[Role] Co-PI
+\end{description}
+
+\vspace{\parskip}
+\confsection{Scalable Big Data Bioinformatics Analysis in the Cloud}
+\vspace{\parskip}
+\begin{description}[widest=Project Period]
+    \item[Program] MZOS (Croatian Ministry of Science, Education, and Sports)
+    \item[Project Period] 01/2014-12/2015
+    \item[Role] PI
+\end{description}
+
+\vspace{\parskip}
+\confsection{Application Information Services for Distributed Computing Environments}
+\vspace{\parskip}
+\begin{description}[widest=Project Period]
+    \item[Program] European Commission FP7, Marie Curie Actions - Incoming International Fellowship (IIF)
+    \item[Project Period] 06/2011-05/2015
+    \item[Role] Fellowship recepient
+\end{description}
+
+%
+%   PUBLICATIONS
+%
+
+\vspace{\parskip}
+\section{Publications}
+\begin{description}[widest=Google Scholar Page] %\itemsep 4pt
+    \item[Google Scholar Page] \begin{verbatim}https://scholar.google.com/citations?user=mkVgKDQAAAAJ&hl=en\end{verbatim}
+    \item[H-Index] 17
+    \item[Total Citations] 4,038 according to Google Scholar on February 16, 2021
+\end{description}
+
+\begin{enumerate} \itemsep 4pt
+    \item \bibentry{ostrovsky2021using}
+    \item \bibentry{ranawaka2020custos}
+    \item \bibentry{goonasekera2020galaxycloudrunner}
+    \item \bibentry{jalili2020galaxy}
+    \item \bibentry{hancock2019jetstream}
+    \item \bibentry{vahid2019cloud}
+    \item \bibentry{afgan2019cloudlaunch}
+    \item \bibentry{afgan2018federated}
+    \item \bibentry{pierce2018towards}
+    \item \bibentry{moreno2018galaxy}
+    \item \bibentry{kim2017bio}
+    \item \bibentry{goonasekera2016cloudbridge}
+    \item \bibentry{afgan2016architectural}
+    \item \bibentry{afgan2016galaxy}
+    \item \bibentry{forer2015cloudflow}
+    \item \bibentry{afgan2015enabling}
+    \item \bibentry{afgan2015genomics}
+    \item \bibentry{afgan2015building}
+    \item \bibentry{forer2015cloudflow}
+    \item \bibentry{skala2015scalable}
+    \item \bibentry{moller2014community}
+    \item \bibentry{afgan2014galaxy}
+    \item \bibentry{leo2014bioblend}
+    \item \bibentry{forer2014delivering}
+    \item \bibentry{blankenberg2014dissemination}
+    \item \bibentry{lipic2014deciphering}
+    \item \bibentry{kowsar2013support}
+    \item \bibentry{sloggett2013bioblend}
+    \item \bibentry{afgan2012cloudman}
+    \item \bibentry{booth2012bio}
+    \item \bibentry{afgan2012reference}
+    \item \bibentry{afgan2012using}
+    \item \bibentry{afgan2012cloudman}
+    \item \bibentry{afgan2012scheduling}
+    \item \bibentry{afgan2011harnessing}
+    \item \bibentry{goto2011dynamics}
+    \item \bibentry{afgan2011application}
+    \item \bibentry{afgan2011galaxy}
+    \item \bibentry{afgan2010exploiting}
+    \item \bibentry{afgan2010galaxy}
+    \item \bibentry{afgan2010elastic}
+    \item \bibentry{afgan2010design}
+    \item \bibentry{afgan2009gridatlas}
+    \item \bibentry{afgan2009dynamic}
+    \item \bibentry{afgan2009domain}
+    \item \bibentry{afgan2009assisting}
+    \item \bibentry{afgan2008embarrassingly}
+    \item \bibentry{halappanavar2008common}
+    \item \bibentry{afgan2008experiences}
+    \item \bibentry{afgan2010exploiting}
+    \item \bibentry{afgan2007computation}
+    \item \bibentry{afgan2007application}
+    \item \bibentry{afgan2006design}
+    \item \bibentry{afgan2006dynamic}
+    \item \bibentry{afgan2005grid}
+    \item \bibentry{afgan2004role}
+\end{enumerate}
+
+%
+%   CONFERENCE AND WORKSHOP ORGANIZATION
+%
+
+\vspace{\parskip}
+\section{Conference and Workshop Organization}
+\begin {itemize}
+    \item \textbf{Enis Afgan}, Luke Sargent, \textit{Lifecycle of analysis using Galaxy}, breakout session at the AnVIL Days 2021, online, February 2021.
+    \item Marlon Pierce, \textbf{Enis Afgan}, Suresh Marru, Isuru Ranawaka, Juleen Graham, \textit{Securing Science Gateways with Custos Services}, training workshop at PEARC 2020 , online, July 2020.
+    \item \textbf{Enis Afgan}, Marius Van Den Beek, Björn Grüning, \textit{The Galaxy Docker Project}, training workshop at the Galaxy Community Conference, Bloomington, IN, July 2016.
+    \item \textbf{Enis Afgan}, Nuwan Goonasekera, Nitesh Turaga, \textit{Get your own Galaxy within minute}, training workshop at the Galaxy Community Conference, Bloomington, IN, July 2016.
+    \item \textbf{Enis Afgan}, Nate Coraor, \textit{How to use Galaxy Ansible Playbooks}, training workshop at the Galaxy Community Conference, Bloomington, IN, July 2016.
+    \item \textbf{Enis Afgan}, Nuwan Goonasekera,  \textit{Galaxy on the Cloud: build it}, training workshop at the Galaxy Community Conference, Bloomington, IN, July 2016.
+    \item \textbf{Enis Afgan}, Davidović, D., Čubrić, J., Skala, K., \textit{Bioinformatics Methods in Genomics}, Rudjer Boskovic Institute (RBI), Zagreb, Croatia, March 2015.
+    \item Ntino Krampis, \textbf{Enis Afgan}, Sanka R., Brad Chapman, \textit{Scriptable Bioinformatics Cloud Infrastructures with Cloud BioLinux, CloudMan and Galaxy}, Galaxy Community Conference (GCC), Baltimore, MD, July 2014.
+    \item \textbf{Enis Afgan}, Dannon Baker,  \textit{Running Galaxy on the Cloud}, Galaxy Community Conference (GCC), Oslo, Norway, July 2013.
+   \item Anton Nekrutenko, \textbf{Enis Afgan}, \textit{Biomedical Data Analysis with Galaxy}, European Human Genetics Conference (EHGC) 2013, Paris, France, June 2013.
+    \item \textbf{Enis Afgan}, Claire Sloggett, Andrew Lonie, Michael Pheasant,  \textit{Genomics Virtual Laboratory Workshop}, eResearch Australasia, Sydney, Australia, December, 2012.
+    \item \textbf{Enis Afgan}, Dannon Baker, \textit{Galaxy CloudMan}, Galaxy Community Conference (GCC), Chicago, IL, July 2012.
+    
+\end{itemize}
+
+%
+% PRESENTATIONS
+%
+
+\vspace{\parskip}
+\section{Presentations}
+\begin {itemize}
+    \item \textit{CloudMan: Galaxy on the Cloud}, Galaxy Community Conference, Lunteren, the Netherlands, May 26, 2011.
+    \item \textit{Dynamically Scalable, Accessible Analysis for High-Throughput Sequence Data}, Bio-IT World, Boston, MA, April 13, 2011.
+    \item \textit{NGS Analyses with Galaxy on the Cloud}, Intelligent Systems for Molecular Biology (ISMB), Boston, MA, July 12, 2010. (live demo)
+    \item \textit{Deploying Galaxy on the Cloud}, Bioinformatics Open Source Conference (BOSC), Boston, MA, July 9, 2010. 
+    \item \textit{A Framework for Efficient Execution of Bioinformatics Applications across the Grid}, MidSouth Computational Biology and Bioinformatics Society (MCBIOS), Starkville, MS, February 21, 2009. \textbf{Best Oral Presentation award}
+    \item \textit{UABgrid: Practice and Experience}, Open Grid Forum (OGF) 22, Boston, MA, February 26, 2008.
+    \item \textit{Language for Describing Application Software in Grid Computing}, Alabama Academy of Science 2007 at the Tuskegee University, Tuskegee, AL, February 28-March 2, 2007.
+    \item \textit{UABgrid Dynamic BLAST: Searching Nucleotide and Protein Databases Using SURAgrid}, Internet 2 Meeting - Fall 2006, Chicago, IL, December 3-7, 2006.
+    \item \textit{Resource Brokering in a Grid Computing Environment}, ACM Mid-Southeastern Conference, Gatlinburg, TN, November 11-12, 2004.
+    \item \textit{Role of the Resource Broker in the Grid}, Austin Peay State University, Gatlinburg, TN, November 21-22, 2003.
+    \item \textit{Adaptive Web Based Resource Broker for the Grid}, University of Montevallo, Montevallo, AL, March 17-20, 2004. 
+\end{itemize}
+
+%
+%   ABSTRACTS
+%
+
+\vspace{\parskip}
+\section{Abstracts}
+\begin {itemize}
+    \item \textbf{Enis Afgan}, Mohamed Heydarian, \textit{Resource planning on the Cloud: exploring the scalability spectrum}, Galaxy Australasia Meeting, Melbourne, Australia, Feb 2017.
+    \item \textbf{Enis Afgan}, John Chilton, Dannon Baker, Nathan Coraor, James Taylor,  \textit{Genomics Across Clouds with Galaxy}, NSF Cloud Workshop: Experimental Support for Cloud Computing, Arlington, VA, December 2014.
+    \item \textbf{Enis Afgan}, \textit{CloudMan Project}, Galaxy Australasia Workshop (GAW), Melbourne, Australia, March 2014.
+    \item Claire Sloggett, Nuwan Goonasekera,  \textbf{Enis Afgan}, \textit{BioBlend - Enabling Pipeline Dreams}, Bioinformatics Open Source Conference (BOSC), Berlin, Germany, July, 2013.
+    \item Kowsar, Y.,  \textbf{Enis Afgan}, \textit{Towards Enabling Big Data and Federated Computing in the Cloud}, Bioinformatics Open Source Conference (BOSC), Berlin, Germany, July, 2013.
+    \item \textbf{Enis Afgan}, Claire Sloggett, Andrew Lonie, Michael Pheasant,  \textit{Establishing a National Genomics Virtual Laboratory with Galaxy CloudMan}, Galaxy Community Conference (GCC), Chicago, IL, July 2012.
+    \item \textbf{Enis Afgan}, Brad Chapman, Ntino Krampis, James Taylor, \textit{Zero to a Bioinformatics Analysis Platform in Four Minutes}, Bioinformatics Open Source Conference (BOSC), Long Beach, CA, July, 2012.
+    \item \textbf{Enis Afgan}, the Galaxy Team, Anton Nekrutenko, James Taylor, \textit{Enabling NGS Analysis with(out) the Infrastructure}, Bioinformatics Open Source Conference (BOSC), Vienna, July, 2011.
+    \item \textbf{Enis Afgan}, Dannon Baker, Nathan Coraor, The Galaxy Team, Anton Nekrutenko, James Taylor,  \textit{Deploying Galaxy on the Cloud}, 18th International Conference on Intelligent Systems and Molecular Biology (ISMB), Boston, MA, July, 2010.
+    \item Halappanavar M., Robinson J.P.,  \textbf{Enis Afgan}, Yafchak M.F., Purushotan Bangalore, \textit{A common application platform for the SURAgrid (CAP)}, Mardi Gras Conference 2008 - Workshop on Grid-Enabling Applications, New Orleans, LA, January 31-February 2, 2008.
+    \item \textbf{Enis Afgan}, Purushotam Bangalore, \textit{Dynamic BLAST - An Approach to Dynamic Grid Application Development}, GlobusWORLD 2006, Washington, D.C., September, 2006.
+    \item \textbf{Enis Afgan}, Purushotam Bangalore,  \textit{Extensible Resource Broker for the Globus Toolkit}, GlobusWORLD 2005, Boston, MA, February, 2005. 
+    
+\end{itemize}
+    
+%
+%   Technical Reports 
+%
+
+\vspace{\parskip}
+\section{Technical Reports}
+\begin {itemize}
+    \item \textbf{Enis Afgan}, Purushotam Bangalore, \textit{Application Specification Language (ASL)}, Technical Report, UABCIS-TR-2007-0123-1, Collaborative Computing Laboratory, University of Alabama at Birmingham, Birmingham, AL, January 23, 2007.
+    \item \textbf{Enis Afgan}, Purushotam Bangalore,   \textit{Effective Utilization of the Grid with the Grid Application Deployment Environment (GADE)}, Technical Report, UABCIS-TR-2005-0601-1, Collaborative Computing Laboratory, University of Alabama at Birmingham, Birmingham, AL, June 1, 2005. 
+   
+   \end{itemize} 
+    
+    
+%
+%   POSTERS 
+%
+
+\vspace{\parskip}
+\section{Posters}
+\begin {itemize}
+    \item \textbf{Enis Afgan}, Brad Chapman, Ntino Krampis, James Taylor, \textit{Zero to a Bioinformatics Analysis Platform in Four Minutes}, Bioinformatics Open Source Conference (BOSC), Long Beach, CA, July, 2012.
+    \item \textbf{Enis Afgan}, Dannon Baker, The Galaxy Team, Anton Nekrutenko, James Taylor,  \textit{The Elastic Analysis with Galaxy on the Cloud}, Beyond the Genome, Boston, MA, Oct 11-13, 2010.
+    \item \textbf{Enis Afgan}, \textit{Assisting users with planning and scheduling jobs on the grid}, IEEE International Parallel \& Distributed Processing Symposium (IPDPS), TCPP PhD Forum, Miami, FL April 14-18, 2008.
+    \item \textbf{Enis Afgan}, Bangalore P., \textit{Dynamic BLAST – an Effective and Efficient BLAST Wrapper for the Grid}, 7th International Symposium on Bioinformatics \& Bioengineering (BIBE), Boston, MA, IEEE, October 14-17, 2007.
+   
+   \end{itemize} 
+    
+    
+%
+% PROJECTS
+%
+
+\vspace{\parskip}
+\section{Projects}
+
+\cvsubsection{AnVIL}[2019-present]
+Analysis, Visualization and Informatics Lab-space (AnVIL) is part of the US national infrastructure bringing together genomic data and analysis applications into a cloud-based platform for performing genomics analyses. As a Co-Investigator on this NHGRI project, I have been responsible for architecting and overseeing the implementation of the environment for integrating Galaxy into AnVIL as a FedRAMP Moderate system. As part of this role, I have advocated for adoption of software container technologies and orchaestration tools, such as as Kubernetes and Helm, which have since been broadly adopted by the project.
+
+\cvsubsection{Galaxy for Cancer}[2019-present]
+Funded by NIH NCI, we are developing a flavor of Galaxy aimed at researchers analyzing cancer data. My role on the projecthas been the system architect where we have adopted the GVL platform as the system deployment target. I also oversee collaborations with partners such as Trusted CI where we are developing best-practices for securing the deployed target for eventual use with protected datasets.
+
+\cvsubsection{Genomics Virutal Lab (GVL)}[2012-present]
+GVL project is a combination of a scalable compute infrastructure, workflow platforms and community resources for Australian genomics researchers. GVL comprises: a workflow management system based on the Galaxy framework, a bioinformatics toolkit (for command-line users) based on CloudBioLinux, and a visualisation service based on the UCSC Genome Browser, all implemented on the Australian national research cloud (NeCTAR). GVL is developing set of tutorials and exemplar workflows targeted at common high throughput genomics tasks. I was the technical lead on the project in charge of infrastructure management and workflow platform setup. More recently, I have transitioned into the the role of a system architect.
+
+\cvsubsection{CloudBioLinux}[2012-2014]
+is a set of automation scripts that enable a complete bioinformatics analysis benchmark to be installed and configured on cloud or local resources. I am one of the top contributors to this open source project. Specifically, I have contributed code that deals with configuring all the components required to install and configure Galaxy application, installation procedures for a number of domain-specific tools, core framework generalization changes, as well as documentation.
+
+\cvsubsection{BioCloudCentral}[2011-2014]
+a web application used to provision, manage, and monitor compute clusters in the cloud. I developed the application using a range of current web technologies (e.g., Django, AngularJS, Celery, nginx, gunicorn) and ensure the application is accessible as a public web service. Throughout year 2013, a public instance of this application was used to launch approximately 200 cloud clusters per month.
+
+\cvsubsection{Galaxy ObjectStore}[2011]
+a Galaxy instance needs to manage terabytes of data, which has grown to be a substantial data management challenge. The devised and developed ObjectStore is a middleware layer that abstracts the backend hardware storage from the application layer using the storage. The end result of the Galaxy ObjectStore is that the storage back end can be replaced (and even swapped) for several storage options, for example AWS Simple Storage Service (S3), thus isolating the application from having to manage the support infrastructure. I developed the ObjectStore with its support for local file systems, a cached file system, and S3.
+
+\cvsubsection{mi-deployment}[2009-2011]
+I devised and developed a process for automated infrastructure and configuration management. The project enables seamless deployment of complex infrastructures and configurations, reproducibility of the environment and follows the deployment model supported by DevOps movement. The project has been in use by the Galaxy Project and largely embedded into the CloudBioLinux project.
+
+\cvsubsection{Galaxy CloudMan}[2009-present]
+I worked on the design, portability, and efficiency study as well as implementation of autonomous web-based application for seamless use of cloud infrastructures. I had to resolve issues regarding application data persistence, data scaling, infrastructure and application management, and cloud usability. Specifically, I worked with Amazon Web Services (AWS) and Eucalyptus middleware as well as accompanying tools (e.g., boto, euca2ools, RabbitMQ, SGE) to devise this project.
+
+\cvsubsection{OptionView, a Grid Metascheduler Implementation}[2007-2009]
+design and implementation of a grid metascheduler that advances user’s interaction method across grid environments on individual job basis. I derived methods and tools for effective planning and execution of application jobs on real-world grid resources resulting in significant alteration and improvement to user experience and Quality of Service (QoS).
+
+\cvsubsection{Application Information Services (AIS)}[2006-2009]
+I devised and developed a set of core grid services that enable collection and retrieval of relevant application- and resource-specific information. Together, these services enable realization of application- and user-oriented metascheduling.
+
+\cvsubsection{Application Performance Database (AppDB)}[2006-2009]
+design and implementation of a repository for collecting and storing application level execution characteristics of previous application executions on the grid, which enables development of more efficient job scheduling policies and mechanisms.
+
+\cvsubsection{GridAtlas}[2006-2009]
+architecture design and development of a service that hides and automates the process of keeping track of installation properties of any one application across grid resources. Availability of this service enables automatic job submission to grid resources by tools such as GridWay.
+
+\cvsubsection{Application Specification Language (ASL)}[2006-2009]
+designed and created an XML language used to describe functionality and options of individual applications in heterogeneous grid environments. The language enables grid schedulers and job submission tools to automatically learn about application preferences and thus enable application oriented scheduling and job submission. Also developed a meta-modeling tool to ease composition of ASL documents.
+
+\cvsubsection{Java implementation of Dynamic BLAST}[2005-2009]
+a multi-threaded, master-worker, grid-enabled wrapper for NCBI BLAST that leverages resource heterogeneity to reduce job execution time. The application focuses on parameterization of individual tasks to best match capabilities of the application and the resource resulting in job runtime reduction of up to 50\% through 40\% resource utilization increase.
+
+\cvsubsection{Metamodel construction and C++ implementation of code generator}[2005]
+Automatic generation of code for wizards from various composed instance models under the constraints of a metamodel.
+
+\cvsubsection{Java based implementations using reflective technologies}[2004]
+Using AspectJ, Javassist, and OpenJava to create a basic application debugger.
+
+\cvsubsection{C++ implementations of MPI based parallel matrix-matrix multiplication algorithms and LU decomposition}[2004]
+Cannon, Fox, and Broadcast-broadcast algorithms for matrix-matrix multiplication.
+
+\cvsubsection{Java implementation of generic Resource Broker}[2004-2005]
+Using fuzzy logic to perform grid application-specific resource selection making use of software design patterns.
+
+\cvsubsection{OGCE web portal}[2004]
+Adaptation of the OGCE grid portal using Java to reflect needs of applications developed for UABGrid.
+
+%
+% ACADEMIC SERVICE
+%
+
+\vspace{\parskip}
+\section{ACADEMIC SERVICE}
+
+\confsection{Spring 2009}
+\begin{quote}
+\begin{description}[widest=Lab Instructor and Primary TA]
+    \item[Lab Instructor and Primary TA] CS 201 – Introduction to Object Oriented Programming
+    \item[Class Instructor] CS 333 - UNIX Operating System Fundamentals. I had complete responsibility for the class thought.
+\end{description}
+\end{quote}
+
+\confsection{Fall 2008}
+\begin{quote}
+\begin{description}[widest=Lab Instructor and Primary TA]
+    \item[Lab Instructor and Primary TA] CS 201 – Introduction to Object Oriented Programming
+    \item[Primary TA]   CS 633/733 – Grid Computing
+\end{description}
+\end{quote}
+
+\confsection{Fall 2006}
+\begin{quote}
+\begin{description}[widest=Lab Instructor and Primary TA]
+    \item[Primary TA]   CS 431 - Distributed Computing
+    \item[Primary TA]   CS 432 - Parallel Computing
+    \item[Secondary TA]   CS 101 - Computing Fundamentals
+    \item[Class Instructor] CS 333 - UNIX Operating System Fundamentals - I had complete responsibility for the class thought.
+\end{description}
+\end{quote}
+
+\confsection{May 2006}
+\begin{quote}
+\begin{description}[widest=Lab Instructor and Primary TA]
+    \item[Class Instructor]  CS 101 - Computing Fundamentals – I had complete responsibility for the class thought.
+\end{description}
+\end{quote}    
+
+\confsection{Fall 2005}
+\begin{quote}
+\begin{description}[widest=Lab Instructor and Primary TA]
+    \item[Primary TA]   CS 101 - Computing Fundamentals
+    \item[Secondary TA]   CS 440 - Operating Systems
+\end{description}
+\end{quote}  
+
+\confsection{Fall 2004}
+\begin{quote}
+\begin{description}[widest=Lab Instructor and Primary TA]
+    \item[Primary TA]   CS 101 - Computing Fundamentals
+    \item[Secondary TA]   CS 350 - Automata and Formal Language Theory
+\end{description}
+\end{quote}  
+
+%
+% HONORS AND AWARDS
+%
+
+\vspace{\parskip}
+\section{Honors and Awards}
+\begin{description}[label=\textbullet,leftmargin=1.8em,labelsep=1em, labelwidth=*, itemsep=1ex]
+    \item[Outstanding Graduate Student at Doctoral Level in the CIS department] May 2009
+    \item[Best Oral Presentation award at the Mid-South Computational Biology and Bioinformatics Society (MCBIOS) 2009] February 2009
+    \item[Travel award for IEEE International Parallel \& Distributed Processing Symposium (IPDPS) 2008] This award was awarded only to top student submission selected to present their work at PhD Forum, April 2008
+    \item[Student travel grant for International Conference on Software Engineering (ICSE) 2007] May 2007
+    \item[1st place UAB Tennis Intramurals Tournament - Intermediate Category] Spring 2006
+    \item[2nd place at UAB Graduate Student Research Days] March 2006
+    \item[Passed Ph.D. qualifying exam with distinction] January 2005
+    \item[2nd Place at Doctoral Level at the ACM Mid-Southeast Conference] November 2004
+    \item[Graduated summa cum laude] December 2003
+    \item[Graduated with Honors in Computer Science] December 2003
+    \item[Phi Kappa Phi Honor Society]
+    \item[Nominee for UAB International Scholar and Student Services Academic Excellence Award] Fall 2002
+    \item[Departmental Award for the Department of Computer and Information Sciences] Fall 2001
+    \item[Phi Eta Sigma Honor Society] Fall 2000
+    \item[Golden Key National Honor Society] Spring 2000
+\end{description}
+
+%
+% EDITORIAL CONTRIBUTIONS AND SERVICE RECORD
+%
+
+\vspace{\parskip}
+\section{Editorial Contributions and Service Record}
+\begin{description}[label=\textbullet,leftmargin=1.8em,labelsep=1em, labelwidth=*, itemsep=1ex]
+    \item[Editor for Special Issue for Scalable Computing: Practice and Experience (SCPE)] Special Issue on Distributed Computing with Applications in Bioengineering (Vol 17, No 2), 2016
+    \item[Conference program committee member] ccGrid 2014, Galaxy Australasia Workshop (GAW) 2014, MIPRO 2014, MIPRO 2015, MIPRO 2016, Gateways 2016, Gateways 2017, Gateways 2018
+    \item[Conference scientific program committee] Galaxy Australasia Meeting 2017 (GAMe2017)
+    \item[Member and one of the founders of the Green Initiative at UAB] Summer 2007 – Spring 2009
+    \item[Student volunteer for International Conference on Software Engineering (ICSE)] May 2007
+    \item[Senator for the Graduate Student Association at UAB] Fall 2004 – Summer 2007
+    \item[Ambassador for the student chapter of ACM at UAB] Spring 2005 – Spring 2007
+    \item[Student volunteer at Supercomputing 2005 (SC|05] November 2005
+    \item[President for the student chapter of ACM at UAB] Spring 2004 – Spring 2005
+    \item[Webmaster for the student chapter of ACM at UAB] Fall 2002 – Fall 2003
+    \item[Participated at the regional ACM Programming Contest in Daytona, FL] November 2003
+\end{description}
+
+%
+%   TECHNICAL SKILLS
+%
+
+\vspace{\parskip}
+\section{Technical Skills}
+\begin{description}[widest=Domain-specific Technologies]
+    \item[Programming Languages] Python
+    \item[DevOps] Docker, Kubernetes, Helm, Rancher, Ansible
+    \item[Clouds] AWS, Google Cloud Platform, OpenStack, Azure
+    \item[Domain-specific Technologies] Galaxy, Bioinformatics Genomics Tools, AnVIL
+\end{description}
+
+%
+% RELATED COURSEWORK
+%
+
+\vspace{\parskip}
+\section{Related Coursework}
+Grid Computing, Parallel Computing, Internetworking, Reflective and Adaptive Systems, Software Engineering, Research Methods, Computer Systems, Database Systems, Numerical Computing, Automata, Language and Computation, Artificial Intelligence, Operating Systems, Calculus, Linear Algebra
+
+%
+% MEMBERSHIPS
+%
+
+\vspace{\parskip}
+\section{Memberships}
+\begin{itemize}
+    \item International Society for Computational Biology (ISCB): 2010-2014
+\end{itemize}
+
+\begin{itemize}
+    \item Mid-South Computational Biology and Bioinformatics Society (MCBIOS)		2009
+\end{itemize}
+
+\begin{itemize}
+    \item Society for Industrial and Applied Mathematics (SIAM)				2009
+\end{itemize}
+
+\begin{itemize}
+    \item Global Grid Forum (GGF) / Open Grid Forum (OGF)					2006, 2008
+\end{itemize}
+
+\begin{itemize}
+    \item Association for Computing Machinery (ACM)					2003 – 2009
+\end{itemize}
+
+\begin{itemize}
+    \item IEEE Computing Society								2004 – 2009
+\end{itemize}
+
+%\begin{tabularx}{1\textwidth}
+%    International Society for Computational Biology (ISCB) & 2010-2014 \\
+%    Mid-South Computational Biology and Bioinformatics Society (MCBIOS) & 2009 \\
+%\end{tabular}
+
+%
+% MISCELLANEOUS
+%
+
+\vspace{\parskip}
+\section{Miscellaneous}
+\begin{description}[widest=Medical Certification]
+    \item[Foreign Languages] 
+    \begin{itemize}
+        \item Croatian, including other regional launguages
+        \item Basic knowledge of German
+        \item Basic comprehension of Polish
+    \end{itemize}
+    \item[Medical Certification] Wilderness First Responder (WFR) certification in January 2009 (expired)
+    \item[Student Leadership] UAB Outdoor Pursuits Trip Leader: 2005-2009
+    \item[Volunteer] 
+    \begin{itemize}
+        \item UAB CIS High School Programming Contest: 2005-2007
+        \item Student Volunteer at International Conference on Software Engineering (ICSE 2007): May 2007
+        \item K-12 Computer Science Workshop at UAB CIS Department: July 2006
+        \item Student Volunteer at Super Computing 2005 (SC’05): November 2005
+        \item Unbridled Joy Special Equestrian Program at Alabama Institute for Deaf and Blind (AIDB): 2003
+    \end{itemize}
+    \item[Hobbies] Sailing, kiteboarding, snow skiing, water skiing, running
+\end{description}
+
+\end{document}
